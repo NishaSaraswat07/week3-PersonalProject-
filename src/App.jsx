@@ -4,7 +4,6 @@ import { Slider } from '@mui/material'
 import { createTheme, ThemeProvider} from '@mui/material/styles'
 
 function App() {
-
   const [val,setVal] = useState([0, 100])
   const [randomNum, setRabdomNum] = useState('Tap the button to generate a random number')
   const [rNColor, setrNColor] = useState('#B4B4B4')
@@ -12,16 +11,13 @@ function App() {
       setVal(value);
   }
   const randomColor = '#' + Math.random().toString(16).slice(2,8)
-     
   const handleRandomNumber = () =>{
     setRabdomNum(
-
       <div id='rNumber'  style={{color: randomColor}}>
         {Math.floor(Math.random() * (val[1] - val[0] + 1)+val[0])}
       </div>
     )
   }
-
   return (
     <div>
       <div className='mainContainer'>
@@ -30,7 +26,6 @@ function App() {
         </div>
         <div className='discription'>
                 <span style={{color: rNColor}}>{randomNum}</span>
-          
         </div>
         <div className='rangeSlider'>
           <p className='Range'>Range: {val.join(" - ")}</p>
@@ -52,7 +47,6 @@ function App() {
     </div>
   )
 }
-
 export default App
 const theme = createTheme({
   palette: {
