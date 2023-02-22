@@ -44,6 +44,7 @@ function App() {
           <button className='button' onClick={handleRandomNumber}></button>
         </div>
       </div>
+      <p className='credit'>Design credit to <span class="name"> Kevin Mao, </span><a href="https://dribbble.com/shots/3804576-Random-Number-Generator">Design Link</a></p>
     </div>
   )
 }
