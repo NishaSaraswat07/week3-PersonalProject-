@@ -12,8 +12,7 @@
   margin-top: 20px;
 }
 h1{
-  font-style:normal;
-  font-weight: 300;
+  font-family: 'robot-light';
   font-size: 40px;
   color: #BBBBBB;
   margin-left: 20px;
@@ -30,8 +29,9 @@ h1{
   letter-spacing: 0.09em;
   color: #B4B4B4;
   text-align: center;
-  font-weight: bolder;
-  font-size: 14px;
+  font-family: 'robot-medium';
+  font-weight: 500;
+  font-size: 15px;
   line-height: 1.2rem;
 }
 .button{
@@ -62,7 +62,7 @@ h1{
 .Range{
   text-align: center;
   color:#8B8B8B;
-  font-weight: 300;
+  font-family: 'robot-light';
   font-size: 18px;
   line-height: 1px;
   letter-spacing: 0.05em;

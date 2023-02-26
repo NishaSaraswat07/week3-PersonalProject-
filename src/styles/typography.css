@@ -1,0 +1,15 @@
+@font-face {
+    font-family: robot-light;
+    src: url('../fonts/robot/roboto-light.woff') format('woff'),
+         url('../fonts/robot/roboto-light.woff2') format('woff2');
+}
+@font-face {
+    font-family: robot-medium;
+    src: url('../fonts/robot/roboto-medium.woff') format('woff'),
+         url('../fonts/robot/roboto-medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: robot-regular;
+    src: url('../fonts/robot/roboto-regular.woff') format('woff'),
+         url('../fonts/robot/roboto-regular.woff2') format('woff2');
+}
